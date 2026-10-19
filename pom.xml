@@ -10,4 +10,21 @@
         <maven.compiler.release>26</maven.compiler.release>
         <exec.mainClass>com.mycompany.assignment2.Assignment2</exec.mainClass>
     </properties>
-</project>
+    
+    <dependencies> 
+    
+    <dependency> 
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-api</artifactId>
+        <version>5.10.2</version>
+        <scope>test</scope>
+    </dependency> 
+    
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-engine</artifactId>
+        <version>5.10.2</version>
+        <scope>test</scope>
+    </dependency>
+    </dependencies>
+</project> 
